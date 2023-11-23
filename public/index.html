@@ -8,78 +8,90 @@
   </head>
   <body>
     <div class="container mx-auto py-8">
-      <h1 class="">Tailwind Showcase</h1>
-      <div>
-        <h2>Colors and Backgrounds</h2>
-        <div class="p-1 mb-4 w-328 h-20 bg-white border border-black flex">
-          <div class="flex-1 bg-blue-500"></div>
-          <div class="flex-1 bg-green-500"></div>
-          <div class="flex-1 bg-yellow-500"></div>
-          <div class="flex-1 bg-red-500"></div>
+      <h1 class="text-4xl font-bold">Tailwind Showcase</h1>
+      <div class="bg-gray-100 p-4 mb-4">
+        <h2 class="text-2xl mb-2 font-bold">Colors and Backgrounds</h2>
+        <div class="border w-328 h-20 flex">
+          <div class="flex-1 border border-gray-400 bg-gray-100"></div>
+          <div class="flex-1 border border-red-400 bg-red-100"></div>
+          <div class="flex-1 border border-yellow-400 bg-yellow-100"></div>
+          <div class="flex-1 border border-green-400 bg-green-100"></div>
         </div>
       </div>
-      <div>
-        <div class="p-1 w-328 h-20 bg-white border border-black flex">
-          <div class="flex-1 bg-blue-500"></div>
-          <div class="flex-1 bg-green-500"></div>
-          <div class="flex-1 bg-yellow-500"></div>
-          <div class="flex-1 bg-red-500"></div>
+      <div class="bg-gray-100 p-4 mb-4">
+        <div class="divide-x divide-gray-400 border border-gray-400 w-328 h-20 flex">
+          <div class="flex-1 bg-gray-100"></div>
+          <div class="flex-1 bg-gray-200"></div>
+          <div class="flex-1 bg-gray-300"></div>
+          <div class="flex-1 bg-gray-400"></div>
         </div>
       </div>
-      <div>
-        <h2 class="bg">Text</h2>
-        <p>This is a small text.</p>
-        <p>This is a base text.</p>
-        <p>This is a large text.</p>
-        <p>This is an extra large text.</p>
-        <p>This is a 3x extra large text.</p>
-        <p>This is a 4x extra large text.</p>
-        <p>This is a 5x extra large text.</p>
-        <p>This is a 8x extra large text.</p>
-        <p>This is a 9x extra large text.</p>
+      <div class="bg-gray-100 p-4 mb-4">
+        <h2>Text</h2>
+        <p class="text-xs text-gray-700">This is a small text.</p>
+        <p class="text-base text-gray-700">This is a base text.</p>
+        <p class="text-lg text-gray-700">This is a large text.</p>
+        <p class="text-xl text-gray-700">This is an extra large text.</p>
+        <p class="text-3xl text-gray-700">This is a 3x extra large text.</p>
+        <p class="text-4xl text-gray-700">This is a 4x extra large text.</p>
+        <p class="text-5xl text-gray-700">This is a 5x extra large text.</p>
+        <p class="text-8xl text-gray-700">This is a 8x extra large text.</p>
+        <p class="text-9xl text-gray-700">This is a 9x extra large text.</p>
       </div>
-      <div>
+      <div class="bg-gray-100 p-4 mb-4">
         <h2>Text Decoration</h2>
-        <p>This is an underlined text.</p>
-        <p>This is a line-through text.</p>
-        <p>This is an underlined and line-through text.</p>
+        <p class="underline text-gray-700">This is an underlined text.</p>
+        <p class="line-through text-gray-700">This is a line-through text.</p>
+        <p class="underline line-through text-gray-700">This is an underlined and line-through text.</p>
       </div>
-      <div>
+      <div class="bg-gray-100 p-4 mb-4">
         <h2>Text Alignment</h2>
-        <p>This is a left-aligned text.</p>
-        <p>This is a center-aligned text.</p>
-        <p>This is a right-aligned text.</p>
+        <p class="text-left text-gray-700">This is a left-aligned text.</p>
+        <p class="text-center text-gray-700">This is a center-aligned text.</p>
+        <p class="text-right text-gray-700">This is a right-aligned text.</p>
       </div>
-      <div>
+      <div class="bg-gray-100 p-4 mb-4">
         <h2>Sizes</h2>
-        <div>
-          <div>XS</div>
-          <div>SM</div>
-          <div>BASE</div>
-          <div>LG</div>
+        <div class="divide-x divide-gray-400 border border-gray-400 w-328 h-20 flex">
+          <div class="flex-1 bg-gray-100 flex items-center justify-center text-center text-xs">XS</div>
+          <div class="flex-1 bg-gray-200 flex items-center justify-center text-center text-sm">SM</div>
+          <div class="flex-1 bg-gray-300 flex items-center justify-center text-center">BASE</div>
+          <div class="flex-1 bg-gray-400 flex items-center justify-center text-center text-lg">LG</div>
         </div>
       </div>
-      <div>
+      <div class="bg-gray-100 p-4 mb-4">
         <h2>Borders</h2>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div class="w-328 h-20 flex">
+          <div class="flex-1 border border-gray-400 bg-gray-100 rounded"></div>
+          <div class="flex-1 border border-gray-400 bg-gray-200 rounded-md"></div>
+          <div class="flex-1 border border-gray-400 bg-gray-300 rounded-lg"></div>
+          <div class="flex-1 border border-gray-400 bg-gray-400 rounded-full"></div>
         </div>
       </div>
-      <div>
-        <div>
+      <div class="bg-gray-100 p-4 mb-4">
+        <div class="bg-gray-100 p-4 mb-4">
           <h2>Margin</h2>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div class="m-6 bg-gray-200 border border-gray-400">
+            This div has a margin of 1.5rem on all sides.
+          </div>
+          <div class="my-12 mx-6 bg-gray-300 border border-gray-400">
+            This div has a horizontal margin of 1.5rem and vertical margin of 3rem.
+          </div>
+          <div class="mt-4 mr-8 mb-12 ml-16 bg-gray-400 border border-gray-400">
+            This div has a margin of 1rem on the top, 2rem on the right, 3rem on the bottom, and 4rem on the left.
+          </div>
         </div>
-        <div>
+        <div class="bg-gray-100 p-4 mb-4">
           <h2>Padding</h2>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div class="p-6 bg-gray-200 border border-gray-400">
+            This div has a padding of 1.5rem on all sides.
+          </div>
+          <div class="py-12 px-6 bg-gray-300 border border-gray-400">
+            This div has a horizontal padding of 1.5rem and a vertical padding of 3rem.
+          </div>
+          <div class="pt-4 pr-8 pb-12 pl-16 bg-gray-400 border border-gray-400">
+            This div has a padding of 1rem on the top, 2rem on the right, 3rem on the bottom, and 4rem on the left.
+          </div>
         </div>
         <div>
           <h2>Card 1</h2>
